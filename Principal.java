@@ -52,7 +52,7 @@ public class Principal {
 
 	public static void registroDeVenda() {
 		if (Total == 0) {
-			System.out.println("Nenhuma venda registarda");
+			System.out.println("Nenhuma venda registrada");
 			return;
 		}
 		System.out.println("Quantidade vendida: " + quantidadeVendida);
@@ -78,7 +78,7 @@ public class Principal {
 
 	public static void calculoPT() {
 		System.out.println("Quantas unidades voce deseja ?");
-		double Unid = scan.nextDouble();
+		int Unid = scan.nextInt();
 
 		if (Unid <= 0) {
 			System.out.println("Numero 0 ou negativo não válido");
